@@ -1,0 +1,95 @@
+{
+ "id": "robotaxi",
+ "title": "AutoVision — The Robotaxi Decision",
+ "caseApp": "https://case-study-builder-git-staging-johns-projects-9b4c8616.vercel.app/s/_pLLXIQ3SLVQ",
+ "assignment": {
+  "title": "Robotaxi Investment Decision Analysis",
+  "role": "Board member / strategy adviser to AutoVision Inc.",
+  "keyQuestion": "Should AutoVision's board approve, modify, or reject Marcus Drake's $18B robotaxi investment plan?",
+  "deliverable": "Board memorandum with a recommendation, about 1,500 words plus exhibits (Porter's Five Forces, VRIN, SWOT, financial ratios). Submit the case app's Export Summary with the paper.",
+  "questions": [
+   {
+    "id": "Q1",
+    "title": "Industry Attractiveness",
+    "words": 250,
+    "prompt": "How attractive is the autonomous ride-hailing industry to enter, based on your Porter's Five Forces Analysis?"
+   },
+   {
+    "id": "Q2",
+    "title": "Competitive Advantages",
+    "words": 250,
+    "prompt": "Does AutoVision have any competitive advantages based on your VRIN and SWOT Analyses of their key resources (fleet, tech, vertical integration, manufacturing scale, brand, founder)? Does AutoVision have any sustainable competitive advantages in robotaxis?"
+   },
+   {
+    "id": "Q3",
+    "title": "Financial Analysis",
+    "words": 250,
+    "prompt": "What are some positive financial trends and some negative trends you see in AutoVision's 2020-2025 financials? Do you think AutoVision can financially afford an $18B investment in the robotaxi business?"
+   },
+   {
+    "id": "Q4",
+    "title": "Likely Scenario",
+    "words": 350,
+    "prompt": "What is the likely scenario for AutoVision's entry into autonomous ride-hailing? Will it succeed? How many vehicles, cities, rides and revenue in five years? What operational capabilities must AutoVision develop? How does vertical integration help or hinder? How will Apex, RideLink and LogiPod respond?"
+   },
+   {
+    "id": "Q5",
+    "title": "Strategic Recommendation",
+    "words": 400,
+    "prompt": "Approve the full $18B plan, approve a modified plan (which one), or reject entry? Why is it superior to alternatives? What 2-3 things must go right? What could undermine it, and how should those risks be monitored?"
+   }
+  ],
+  "frameworks": [
+   "Porter's Five Forces",
+   "VRIN",
+   "SWOT",
+   "Financial ratios"
+  ]
+ },
+ "memo": {
+  "to": "Board of Directors, AutoVision Inc.",
+  "subject": "Whether AutoVision should approve, modify, or reject the $18 billion robotaxi investment",
+  "cc": "Marcus Drake, CEO; Patricia Lenz, Director",
+  "alternatives": [
+   "Approve the full $18B plan as proposed",
+   "Approve a modified or staged plan (define the stages and gates)",
+   "Reject entry and adopt the Lenz alternative ($15B buyback + $3B EV platform defense)"
+  ]
+ },
+ "context": "AutoVision Inc.: world's most valuable EV company. Revenue $95B, ~500,000 employees, market cap $850B, $35B cash.\nCore EV business under pressure: revenue down 7%, margins compressing. Meridian Equity Research projects EV share falling from 18% to 13% by 2027 (Pinnacle Motors and others maturing). Pacific Ventures Capital forecasts core EV EBITDA margin falling from 28% to 21% by 2026 (pricing pressure, warranty costs).\nProposal (CEO Marcus Drake): $18B to enter robotaxis; 500 vehicles in 3-4 cities in 2026, 25,000 vehicles in 8-10 cities by 2027-28, 500,000 vehicles in 40+ cities by 2029-30; profitability 2028-2030; $12B profit by 2032. Camera-only technology, $55,000 vehicles, only 5,000 test rides with safety monitors. Direct-to-consumer app announced October 2025.\nBoard dissent: Director Patricia Lenz (ex-Goldman Sachs) and two directors favor a $15B buyback plus $3B EV platform defense instead.\nDragonPath Mobility (China), CEO Dr. Wei Zhang: only profitable robotaxi operator. 18,500 vehicles, 23 cities, 380M rides/yr, 12% operating margin, $0.42/mile operating cost. Sensor-rich (pivoted from camera-only after safety concerns). Chose not to enter the U.S. (regulation, geopolitics, cultural barriers, uncertain costs). \"An operations business, not a technology business.\"\nApex Autonomous, CTO Dr. Samira Okonkwo: 7 years of operations, 14M commercial rides, zero serious incidents, 5 cities, sensor-rich (lidar, radar, cameras), $72,000 vehicles, 280 engineers, burning $1.2B/yr, not profitable.\nRideLink, SVP Jason Chen: 120M users, 4.2M human drivers, 800+ cities in 45 countries, 65M AV rides/yr (0.8% of volume). Dilemma: move to AVs without destroying the driver platform. AutoVision's D2C app is both a threat and a negotiating opportunity. Chen is the leading CEO candidate for 2027-28.\nLogiPod (Titan Global Logistics), CEO Elena Vasquez: dual-use purpose-built $95,000 vehicles (passengers 6am-10pm, packages overnight), 19 hours/day, 450 vehicles, $128,000 revenue per vehicle vs ~$45,000 for competitors, losing $890M/yr. Titan has invested $8.5B, $15B committed through 2030. Must scale from 50 to 500 vehicles/month by 2028; breakeven at 15,000 vehicles (target 2029). \"You don't enter Formula 1 with a modified street car!\"\nGap: the case app does not show AutoVision's 2020-2025 financial statements, which Question 3 needs. Ask Marcus Drake for them, or check the course materials.",
+ "people": [
+  {
+   "id": "zhang",
+   "name": "Dr. Wei Zhang",
+   "role": "CEO, DragonPath Mobility · impartial industry expert",
+   "stance": "Neutral benchmark. Runs the only profitable robotaxi operator (18,500 vehicles, 23 cities, 12% op margin, $0.42/mile). Pivoted away from camera-only. Chose not to enter the U.S."
+  },
+  {
+   "id": "okonkwo",
+   "name": "Dr. Samira Okonkwo",
+   "role": "CTO, Apex Autonomous · competitor (sensor-rich)",
+   "stance": "Technical critic of camera-only. 7 years of operations, 14M rides, zero serious incidents, 5 cities, $72K vehicles, burning $1.2B/yr."
+  },
+  {
+   "id": "vasquez",
+   "name": "Elena Vasquez",
+   "role": "CEO, LogiPod Autonomous Systems (Titan Global Logistics) · competitor (purpose-built, dual-use)",
+   "stance": "'You don't enter Formula 1 with a modified street car.' 450 purpose-built $95K vehicles, 19 hours/day, $128K revenue per vehicle vs ~$45K, losing $890M/yr, Titan committing $15B through 2030."
+  },
+  {
+   "id": "chen",
+   "name": "Jason Chen",
+   "role": "SVP Strategic Initiatives, RideLink · potential partner / platform rival",
+   "stance": "120M users, 4.2M human drivers, 800+ cities, 65M AV rides (0.8% of volume). Threatened by AutoVision's October 2025 direct-to-consumer app, but also a possible partner. Likely future CEO."
+  },
+  {
+   "id": "drake",
+   "name": "Marcus Drake",
+   "role": "CEO, AutoVision Inc. · sponsor of the $18B proposal",
+   "stance": "Champion of the mobility-platform vision. Owns the $12B-by-2032 projection, camera-only bet, D2C app and the case against the Lenz buyback."
+  }
+ ],
+ "gaps": [
+  "AutoVision 2020-2025 financial statements (needed for Q3) are not in the case app Company tab. Ask Marcus Drake, or check the course materials."
+ ]
+}
