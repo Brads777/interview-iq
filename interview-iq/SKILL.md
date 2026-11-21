@@ -1,6 +1,6 @@
 ---
 name: interview-iq
-description: Interview-IQ by G. Bradley Scheller (MGT4850). Plans and runs research by interview for a business case. It builds the interview strategy and question bank, runs each executive interview one question at a time with evidence-based follow-ups (at most 8 per question), logs every exchange, then produces a memo TEMPLATE and DRAFT EXHIBITS from the student's own evidence. It never writes the memo. AutoVision Robotaxi is pre-loaded. Use for "Run Interview-IQ", "interview guide", "plan my interviews", "resume my interviews", "memo template", "draft exhibits", or "interview log".
+description: Interview-IQ by G. Bradley Scheller (MGT4850). Plans and runs research by interview for a business case. It builds the interview strategy and question bank, runs each executive interview one question at a time with evidence-based follow-ups (at most 2 per question; clarifying replies free; two refusals log a gap), logs every exchange, then produces a memo TEMPLATE and DRAFT EXHIBITS from the student's own evidence. It never writes the memo. AutoVision Robotaxi is pre-loaded. Use for "Run Interview-IQ", "interview guide", "plan my interviews", "resume my interviews", "memo template", "draft exhibits", or "interview log".
 ---
 
 # Interview-IQ
@@ -47,7 +47,7 @@ Ask for the student's name for the ledger.
 
 5. **Interviews.** First, give the student the case app link (`case.caseApp` in the ledger) and tell them to open it in a second tab and enter their name. Then go person by person, in order.
    - Present each question exactly as shown in `references/method.md`.
-   - When the student pastes a reply, log it with `ledger.py add`. Then either propose one follow-up, using the rules in `method.md`, or move to the next planned question.
+   - When the student pastes a reply, log it with `ledger.py add` (`--clar` for the student's answer to a clarifying question, `--declined "<item>"` when the interviewee refused). Then either propose one follow-up, using the rules and limits in `method.md`, or move to the next planned question. If `ledger.py` says a limit is reached, move on.
    - The student can type `skip`, `probe N`, `my question: …`, `status` or `log`.
    - After each person, show a three-line evidence recap: key numbers, claims to test, and contradictions. Then do a **checkpoint**: save the ledger and remind the student to download it.
 
