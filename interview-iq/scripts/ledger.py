@@ -83,7 +83,7 @@ def cmd_plan(a):
 
 def lint(text):
     out = []
-    if text.count("?") > 1:
+    if text.count("?") > 1 or re.search(r",\s*and\s+(how|what|why|who|which|when|where|would|will|do|does|did|is|are|can|could|should)\b", text, re.I):
         out.append("Asks more than one question. Keep one and move the rest to probes.")
     if re.search(r"\b(summari[sz]e|recap|sum up|key points|key takeaways)\b", text, re.I):
         out.append("Asks the interviewee to summarize. Low value: that synthesis is your job.")
